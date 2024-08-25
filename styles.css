@@ -1,0 +1,168 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #004d80;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-buttons {
+    display: flex;
+}
+
+.auth-buttons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.auth-buttons a.login-btn {
+    background-color: transparent;
+}
+
+.auth-buttons a.signup-btn {
+    background-color: #ff6f00;
+}
+
+.hero-section {
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff6f00;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e65c00;
+}
+
+.about-section, .features-section, .eligibility-section, .testimonials-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section h2, .features-section h2, .eligibility-section h2, .testimonials-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-section p, .eligibility-section p {
+    font-size: 1.2em;
+}
+
+.stats, .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.stat-item, .feature-item {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.feature-item i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info {
+    margin: 10px 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 5px;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: #004d80;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
